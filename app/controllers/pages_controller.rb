@@ -14,5 +14,9 @@ class PagesController < ApplicationController
   def legal
   	@title = "Legal"
   end
+  
+  def help
+  	@title = "Help"
+  end
 
 end
